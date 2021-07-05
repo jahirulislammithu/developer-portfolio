@@ -16,7 +16,8 @@ span{ color: orange}
      ;
     background-image: url(images/top-banner.png);
      background-repeat: no-repeat;
-    padding-bottom: 150;}
+    }
+
      
 
 .fflex { 
@@ -36,6 +37,55 @@ span{ color: orange}
 
 
      .top-banner-2 {   display: flex;
-        ; }
+        background-image: url(images/dream-bg.png);
+     background-repeat: no-repeat;
+       background-position: right;}
 
         .resize { margin: 4% 5% 5% 5%;}
+
+
+
+
+
+
+
+
+
+.e-flex { display: flex;}    
+
+h2  {font-size: 50px; }
+h3 { font-size: 20px;
+   color: orange;}
+
+.exprience-section { background-image: url(images/exp-bg.png);
+                     background-repeat: no-repeat;
+                    }
+
+.dbox { 
+    box-shadow: 10px 10px 40px gray ;
+    margin-top: 5%;
+    margin-left: 5% ;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 40%;
+    height: 400px;
+    padding: 3% 3% 3% ;
+    border-left: greenyellow;
+}
+
+#colour-line1 { 
+         border-left: 10px solid;
+         border-image:linear-gradient(blue ,cyan);
+         border-image-slice: 1;
+}
+
+#colour-line2 { 
+    border-left: 10px solid;
+    border-image:linear-gradient(rgb(255, 251, 0) , lightsalmon);
+        border-image-slice: 1;   }
+
+#ex { padding-left: 5%;
+      padding-top: 5%;}
+
+
+footer p { text-align: center;}
